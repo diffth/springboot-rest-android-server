@@ -33,7 +33,6 @@ public class TestService {
 	}
 
 	public void update(int no, Test test) {
-		
 		testMapper.update(no, test.getName(), test.getAge());
 	}
 
