@@ -29,5 +29,4 @@ public interface TestMapper {
 	@Update("UPDATE test SET name = #{name}, age = #{age} WHERE no = #{no}")
 	void update(@Param("no") int no, @Param("name") String name, @Param("age") String age);
 
-
 }
